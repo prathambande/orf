@@ -3,7 +3,7 @@ pr:
 
 parameters:
   - name: Subscription
-    default: 'Oryx (e13e3c2a-b6ed-4969-875a-28bec9f4513f)'
+    default: 'DemoAZPipe'
     type: string
 
 stages:
