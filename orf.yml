@@ -75,7 +75,6 @@ stages:
   jobs:
   - job: Build_Image_Job
     timeoutInMinutes: 120
-    variables:
     steps:
     - task: AzureCLI@2
       displayName: Initiating Build Image pipeline run
